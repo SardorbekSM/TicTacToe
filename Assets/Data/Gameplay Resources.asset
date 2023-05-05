@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f15f7286d3a4696aa38e1b49249575b, type: 3}
+  m_Name: Gameplay Resources
+  m_EditorClassIdentifier: 
+  _matrixPrefab: {fileID: 6329541498933978774, guid: f2d9ac9f0f2407145ad77a963e3d78d2,
+    type: 3}
+  _firstPlayerPrefab: {fileID: 6839563271003195923, guid: 1977f75e05fa5a540b081a88fa0db6a0,
+    type: 3}
+  _secondPlayerPrefab: {fileID: 5839050829314978010, guid: 668140d6e714439409bf8eb3429bcd89,
+    type: 3}
