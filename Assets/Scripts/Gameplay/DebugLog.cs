@@ -1,18 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DebugLog : MonoBehaviour
+namespace Gameplay
 {
-    // Start is called before the first frame update
-    void Start()
+    public class DebugLog : MonoBehaviour
     {
-        
-    }
+        public void ShowLog()
+        {
+            Debug.Log($"This log is working!");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void ShowLog(int number)
+        {
+            Debug.Log($"Number of log: {number}");
+        }
+
+        public void ShowLog(string text)
+        {
+            Debug.Log($"Log text: {text}");
+        }
     }
 }
